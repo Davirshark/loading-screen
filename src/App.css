@@ -8,11 +8,11 @@
 
 @keyframes aumentar {
   from {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
   to {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     transform: rotate(360deg);}
 }
