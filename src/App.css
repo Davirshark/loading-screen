@@ -1,4 +1,6 @@
 .demo { 
+  width: 200px;
+  height: 200px;
   margin-top: 200px;
   background:url(imagem.png);
   animation: aumentar 3s infinite ease-in-out ;
@@ -8,11 +10,8 @@
 
 @keyframes aumentar {
   from {
-    width: 200px;
-    height: 200px;
+  transform: scale(0.4);
   }
   to {
-    width: 200px;
-    height: 200px;
-    transform: rotate(360deg);}
+    transform: scale(1.2) rotate(360deg);}
 }
