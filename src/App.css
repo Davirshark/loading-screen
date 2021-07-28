@@ -1,17 +1,20 @@
+
+
 .demo { 
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin-top: 200px;
-  background:url(imagem.png);
-  animation: aumentar 3s infinite ease-in-out ;
-  margin-left: auto;
-  margin-right: auto; 
+  margin-left: 500px;
+  animation: aumentar 2s  infinite ;
 }
 
 @keyframes aumentar {
+
   from {
-  transform: scale(0.4);
+    
   }
+
   to {
-    transform: scale(1.2) rotate(360deg);}
+    transform: rotate(360deg);
+  }
 }

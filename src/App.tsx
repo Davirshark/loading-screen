@@ -1,10 +1,11 @@
 import './App.css';
+import image from "./teste.png";
 
 function App() {
   return (
-    <h1 className=
-    "demo">
-   </h1>
+    <div className="fundo">
+      <img className ="demo" src={image} alt="loading" />
+  </div>
   );
 }
 
